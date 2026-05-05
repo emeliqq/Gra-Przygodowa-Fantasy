@@ -1,0 +1,4 @@
+repository "FantasyGame/FantasyGame@7972568277084@cloud"
+  path "/"
+    br "/main"
+    co "/main"
