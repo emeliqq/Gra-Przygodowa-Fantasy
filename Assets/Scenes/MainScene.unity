@@ -276,8 +276,10 @@ GameObject:
   - component: {fileID: 487223970}
   - component: {fileID: 487223972}
   - component: {fileID: 487223971}
+  - component: {fileID: 487223973}
+  - component: {fileID: 487223974}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Card
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -340,6 +342,31 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 487223969}
   m_CullTransparentMesh: 1
+--- !u!114 &487223973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487223969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9323473d56bf7d14e997023869e40fe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Card
+  cardName: Karta
+--- !u!225 &487223974
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 487223969}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1049,7 +1076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aabb96f7e4a1dbe4aa4fcdf0f52d7df7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Character
-  characterName: x
+  characterName: Postac
 --- !u!1 &1433420444
 GameObject:
   m_ObjectHideFlags: 0
