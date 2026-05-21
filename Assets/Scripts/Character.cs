@@ -14,10 +14,16 @@ public class Character : MonoBehaviour, IPointerClickHandler, IDropHandler
     public void OnDrop(PointerEventData eventData)
     {
         Card card = eventData.pointerDrag.GetComponent<Card>();
+        if (card == null) return;
 
-        if (card != null)
+        switch (card.cardName)
         {
-            Debug.Log(characterName + " otrzymal karte: " + card.cardName);
+            case "Card_Map":
+                Debug.Log(characterName + " patrzy na mape - odkrywa nowa lokacje!");
+                break;
+            default:
+                Debug.Log("Ta karta nie dziala na " + characterName);
+                break;
         }
     }
 }

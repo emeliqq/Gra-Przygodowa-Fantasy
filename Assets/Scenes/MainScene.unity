@@ -354,7 +354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9323473d56bf7d14e997023869e40fe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Card
-  cardName: Karta
+  cardName: Card_Filter
 --- !u!225 &487223974
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1053,7 +1053,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9323473d56bf7d14e997023869e40fe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Card
-  cardName: Karta
+  cardName: Card_Bottle
 --- !u!114 &869564381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1284,7 +1284,7 @@ GameObject:
   - component: {fileID: 1415046854}
   - component: {fileID: 1415046856}
   - component: {fileID: 1415046855}
-  - component: {fileID: 1415046857}
+  - component: {fileID: 1415046858}
   m_Layer: 5
   m_Name: Stream
   m_TagString: Untagged
@@ -1349,7 +1349,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1415046853}
   m_CullTransparentMesh: 1
---- !u!114 &1415046857
+--- !u!114 &1415046858
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1358,10 +1358,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 1415046853}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff8cc6032799a99469d90bfa60db4f0e, type: 3}
+  m_Script: {fileID: 11500000, guid: 542623d1313bd4a49b8e4aafa48cace2, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Interactable
-  objectName: "Strumie\u0144"
+  m_EditorClassIdentifier: Assembly-CSharp::Stream
 --- !u!1 &1433420444
 GameObject:
   m_ObjectHideFlags: 0
@@ -1621,7 +1620,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9323473d56bf7d14e997023869e40fe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Card
-  cardName: Karta
+  cardName: Card_Map
 --- !u!114 &2076954429
 MonoBehaviour:
   m_ObjectHideFlags: 0
