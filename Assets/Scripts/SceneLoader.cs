@@ -12,4 +12,20 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene("MainScene");
     }
+
+    public void LoadMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void PlayGame()
+    {
+        SceneManager.LoadScene("MainScene");
+    }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+        Debug.Log("Wyjscie z gry!");
+    }
 }

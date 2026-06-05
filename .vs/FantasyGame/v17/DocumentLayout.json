@@ -3,11 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\KubaBuba\\Desktop\\FantasyGame\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6130D93F-F90D-9067-7CF9-5C55180C0D47}|Assembly-CSharp.csproj|c:\\users\\kubabuba\\desktop\\fantasygame\\assets\\scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6130D93F-F90D-9067-7CF9-5C55180C0D47}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sceneloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6130D93F-F90D-9067-7CF9-5C55180C0D47}|Assembly-CSharp.csproj|C:\\Users\\KubaBuba\\Desktop\\FantasyGame\\assets\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6130D93F-F90D-9067-7CF9-5C55180C0D47}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6130D93F-F90D-9067-7CF9-5C55180C0D47}|Assembly-CSharp.csproj|c:\\users\\kubabuba\\desktop\\fantasygame\\assets\\scripts\\stream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6130D93F-F90D-9067-7CF9-5C55180C0D47}|Assembly-CSharp.csproj|C:\\Users\\KubaBuba\\Desktop\\FantasyGame\\assets\\scripts\\stream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6130D93F-F90D-9067-7CF9-5C55180C0D47}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\stream.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -30,11 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "SceneLoader.cs",
+              "DocumentMoniker": "C:\\Users\\KubaBuba\\Desktop\\FantasyGame\\Assets\\Scripts\\SceneLoader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneLoader.cs",
+              "ToolTip": "C:\\Users\\KubaBuba\\Desktop\\FantasyGame\\Assets\\Scripts\\SceneLoader.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneLoader.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T07:55:33.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Stream.cs",
               "DocumentMoniker": "C:\\Users\\KubaBuba\\Desktop\\FantasyGame\\Assets\\Scripts\\Stream.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Stream.cs",
@@ -42,12 +59,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Stream.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-21T11:29:09.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-21T11:29:09.367Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Interactable.cs",
               "DocumentMoniker": "C:\\Users\\KubaBuba\\Desktop\\FantasyGame\\Assets\\Scripts\\Interactable.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Interactable.cs",
@@ -59,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Backpack.cs",
               "DocumentMoniker": "C:\\Users\\KubaBuba\\Desktop\\FantasyGame\\Assets\\Scripts\\Backpack.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Backpack.cs",
@@ -71,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Card.cs",
               "DocumentMoniker": "C:\\Users\\KubaBuba\\Desktop\\FantasyGame\\Assets\\Scripts\\Card.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Card.cs",
@@ -83,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Character.cs",
               "DocumentMoniker": "C:\\Users\\KubaBuba\\Desktop\\FantasyGame\\Assets\\Scripts\\Character.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Character.cs",
@@ -91,8 +107,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Character.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-16T07:38:24.318Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-16T07:38:24.318Z"
             }
           ]
         }
