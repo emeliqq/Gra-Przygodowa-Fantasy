@@ -63,6 +63,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Character.cs" />
     <Compile Include="Assets\Scripts\Backpack.cs" />
+    <Compile Include="Assets\Scripts\OptionsManager.cs" />
     <Compile Include="Assets\Scripts\Stream.cs" />
     <Compile Include="Assets\Scripts\Card.cs" />
     <Compile Include="Assets\Scripts\SceneLoader.cs" />
