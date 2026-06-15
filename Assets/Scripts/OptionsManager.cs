@@ -4,25 +4,33 @@ using UnityEngine.UI;
 public class OptionsManager : MonoBehaviour
 {
     public Slider volumeSlider;
+    public Slider mouseSensitivitySlider;
 
     void Start()
     {
-        // Wczytaj zapisaną głośność - domyślnie 1 (max)
+        // Głośność
         float savedVolume = PlayerPrefs.GetFloat("Volume", 1f);
         volumeSlider.value = savedVolume;
         AudioListener.volume = savedVolume;
-
-        // Nasłuchuj zmian suwaka
         volumeSlider.onValueChanged.AddListener(OnVolumeChanged);
+
+        // Czułość myszy
+        float savedSensitivity = PlayerPrefs.GetFloat("MouseSensitivity", 1f);
+        mouseSensitivitySlider.value = savedSensitivity;
+        mouseSensitivitySlider.onValueChanged.AddListener(OnSensitivityChanged);
     }
 
     void OnVolumeChanged(float value)
     {
-        // Zmień głośność w grze
         AudioListener.volume = value;
 
-        // Zapisz ustawienie
         PlayerPrefs.SetFloat("Volume", value);
+        PlayerPrefs.Save();
+    }
+
+    void OnSensitivityChanged(float value)
+    {
+        PlayerPrefs.SetFloat("MouseSensitivity", value);
         PlayerPrefs.Save();
     }
 }

@@ -1409,6 +1409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::OptionsManager
   volumeSlider: {fileID: 118161614}
+  mouseSensitivitySlider: {fileID: 0}
 --- !u!4 &1770410832
 Transform:
   m_ObjectHideFlags: 0
