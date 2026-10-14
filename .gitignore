@@ -3,3 +3,5 @@ Temp/
 Logs/
 UserSettings/
 Build/
+*.sln
+*.csproj
