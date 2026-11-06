@@ -16,7 +16,7 @@ public class Card : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
     public void OnBeginDrag(PointerEventData eventData)
     {
         startPosition = transform.position;
-        // Wyłącz blokowanie - żeby postać "widziała" kartę
+        
         canvasGroup.blocksRaycasts = false;
     }
 
@@ -27,7 +27,7 @@ public class Card : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
 
     public void OnEndDrag(PointerEventData eventData)
     {
-        // Włącz z powrotem
+        
         canvasGroup.blocksRaycasts = true;
         transform.position = startPosition;
     }

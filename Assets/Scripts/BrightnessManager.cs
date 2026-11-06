@@ -24,7 +24,6 @@ public class BrightnessManager : MonoBehaviour
         AudioListener.volume = savedVolume;
 
         CreateOverlay();
-
         SetBrightness(savedBrightness);
     }
 
@@ -62,14 +61,16 @@ public class BrightnessManager : MonoBehaviour
 
         if (value < 0.5f)
         {
-            float alpha = (0.5f - value) * 0.9f;
+            float normalized = (0.5f - value) / 0.5f;
+            float alpha = Mathf.Pow(normalized, 0.7f) * 0.75f;
 
             instance.brightnessOverlay.color =
                 new Color(0, 0, 0, alpha);
         }
         else
         {
-            float alpha = (value - 0.5f) * 0.05f;
+            float normalized = (value - 0.5f) / 0.5f;
+            float alpha = Mathf.Pow(normalized, 2f) * 0.025f;
 
             instance.brightnessOverlay.color =
                 new Color(1, 1, 1, alpha);
