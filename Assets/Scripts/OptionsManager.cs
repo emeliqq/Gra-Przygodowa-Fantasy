@@ -1,26 +1,44 @@
+
 using UnityEngine;
 using UnityEngine.UI;
 
 public class OptionsManager : MonoBehaviour
 {
     public Slider volumeSlider;
-    public Slider mouseSensitivitySlider;
+    public Slider brightnessSlider;
 
-    void Start()
+    private void Start()
     {
-        // Głośność
-        float savedVolume = PlayerPrefs.GetFloat("Volume", 1f);
-        volumeSlider.value = savedVolume;
-        AudioListener.volume = savedVolume;
-        volumeSlider.onValueChanged.AddListener(OnVolumeChanged);
+        float savedVolume = PlayerPrefs.GetFloat("Volume", 0.5f);
+        float savedBrightness = PlayerPrefs.GetFloat("Brightness", 0.5f);
 
-        // Czułość myszy
-        float savedSensitivity = PlayerPrefs.GetFloat("MouseSensitivity", 1f);
-        mouseSensitivitySlider.value = savedSensitivity;
-        mouseSensitivitySlider.onValueChanged.AddListener(OnSensitivityChanged);
+        if (volumeSlider != null)
+        {
+            volumeSlider.SetValueWithoutNotify(savedVolume);
+            volumeSlider.onValueChanged.AddListener(OnVolumeChanged);
+        }
+
+        AudioListener.volume = savedVolume;
+
+        if (brightnessSlider != null)
+        {
+            brightnessSlider.SetValueWithoutNotify(savedBrightness);
+            brightnessSlider.onValueChanged.AddListener(OnBrightnessChanged);
+        }
+
+        BrightnessManager.SetBrightness(savedBrightness);
     }
 
-    void OnVolumeChanged(float value)
+    private void OnDestroy()
+    {
+        if (volumeSlider != null)
+            volumeSlider.onValueChanged.RemoveListener(OnVolumeChanged);
+
+        if (brightnessSlider != null)
+            brightnessSlider.onValueChanged.RemoveListener(OnBrightnessChanged);
+    }
+
+    private void OnVolumeChanged(float value)
     {
         AudioListener.volume = value;
 
@@ -28,9 +46,11 @@ public class OptionsManager : MonoBehaviour
         PlayerPrefs.Save();
     }
 
-    void OnSensitivityChanged(float value)
+    private void OnBrightnessChanged(float value)
     {
-        PlayerPrefs.SetFloat("MouseSensitivity", value);
+        BrightnessManager.SetBrightness(value);
+
+        PlayerPrefs.SetFloat("Brightness", value);
         PlayerPrefs.Save();
     }
 }

@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Jakub\\Desktop\\Gra-Przygodowa-Fantasy\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jakub\\Desktop\\Gra-Przygodowa-Fantasy\\Assets\\Scripts\\CustomCursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CustomCursor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jakub\\Desktop\\Gra-Przygodowa-Fantasy\\Assets\\Scripts\\OptionsManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\OptionsManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Jakub\\Desktop\\Gra-Przygodowa-Fantasy\\Assets\\Scripts\\BrightnessManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\BrightnessManager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CustomCursor.cs",
-              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\Gra-Przygodowa-Fantasy\\Assets\\Scripts\\CustomCursor.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CustomCursor.cs",
-              "ToolTip": "C:\\Users\\Jakub\\Desktop\\Gra-Przygodowa-Fantasy\\Assets\\Scripts\\CustomCursor.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CustomCursor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Title": "OptionsManager.cs",
+              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\Gra-Przygodowa-Fantasy\\Assets\\Scripts\\OptionsManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\OptionsManager.cs",
+              "ToolTip": "C:\\Users\\Jakub\\Desktop\\Gra-Przygodowa-Fantasy\\Assets\\Scripts\\OptionsManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\OptionsManager.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADQAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-06T09:41:49.935Z",
+              "WhenOpened": "2026-11-06T10:31:39.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BrightnessManager.cs",
+              "DocumentMoniker": "C:\\Users\\Jakub\\Desktop\\Gra-Przygodowa-Fantasy\\Assets\\Scripts\\BrightnessManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BrightnessManager.cs",
+              "ToolTip": "C:\\Users\\Jakub\\Desktop\\Gra-Przygodowa-Fantasy\\Assets\\Scripts\\BrightnessManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BrightnessManager.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-06T10:16:27.484Z",
               "EditorCaption": ""
             }
           ]
