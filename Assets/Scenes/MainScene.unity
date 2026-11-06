@@ -1179,6 +1179,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Character
   characterName: Postac
+  mapButton: {fileID: 249682074}
 --- !u!1 &1162235333
 GameObject:
   m_ObjectHideFlags: 0

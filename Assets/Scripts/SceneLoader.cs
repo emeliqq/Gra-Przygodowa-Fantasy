@@ -1,3 +1,4 @@
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -20,6 +21,7 @@ public class SceneLoader : MonoBehaviour
 
     public void PlayGame()
     {
+        GameState.ResetGameState();
         SceneManager.LoadScene("MainScene");
     }
 
