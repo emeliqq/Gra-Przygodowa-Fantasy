@@ -9,13 +9,16 @@ EditorBuildSettings:
     path: Assets/Scenes/MainScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
-    path: Assets/Scenes/MapScene.unity
+    path: Assets/Scenes/Menu_Scenes/MapScene.unity
     guid: f5328fce1476d044491a9ed46836683a
   - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
+    path: Assets/Scenes/Menu_Scenes/MainMenu.unity
     guid: 52a23ecebe2e4e54494e6d854cc90989
   - enabled: 1
-    path: Assets/Scenes/OptionsScene.unity
+    path: Assets/Scenes/Menu_Scenes/OptionsScene.unity
     guid: b6fa6974a311da74f851b5e86feae54e
+  - enabled: 1
+    path: Assets/Scenes/Level_01_Scenes/L01_S01.unity
+    guid: 242803a7eff9a2b4d8e1a9530017ecbe
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

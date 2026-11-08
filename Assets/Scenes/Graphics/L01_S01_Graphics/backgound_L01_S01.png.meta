@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 9e8bd23bf638f7a4e9b563f73e7b7e99
+guid: 2d22a4426e8556646974ece7ffedad81
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7353315700631381501
-    second: water_filter_0
+      213: 6383925347857006893
+    second: backgound_L01_S01_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -46,9 +46,9 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -87,6 +87,19 @@ TextureImporter:
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
+    textureFormat: 3
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
     compressionQuality: 50
@@ -100,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: water_filter_0
+      name: backgound_L01_S01_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1060
-        height: 1484
+        width: 1672
+        height: 941
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: df5af619ba93c0660800000000000000
-      internalID: 7353315700631381501
+      spriteID: d2101a7c742489850800000000000000
+      internalID: 6383925347857006893
       vertices: []
       indices: 
       edges: []
@@ -125,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      water_filter_0: 7353315700631381501
+      backgound_L01_S01_0: 6383925347857006893
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

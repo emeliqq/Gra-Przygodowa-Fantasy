@@ -22,7 +22,7 @@ public class SceneLoader : MonoBehaviour
     public void PlayGame()
     {
         GameState.ResetGameState();
-        SceneManager.LoadScene("MainScene");
+        SceneManager.LoadScene("L01_S01");
     }
 
     public void LoadOptions()
