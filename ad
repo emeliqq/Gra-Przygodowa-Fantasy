@@ -1,0 +1,241 @@
+[33mcommit b14d7e6630eeef4f13ea7f519f866131be6207a2[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature-scene[m[33m)[m
+Author: JakubGulak-git <jakubgulak@icloud.com>
+Date:   Fri Nov 6 12:32:19 2026 +0100
+
+    improve playing
+
+[33mcommit 04332bc991c9de3f9fed4728edc824daf5de1bce[m
+Author: JakubGulak-git <jakubgulak@icloud.com>
+Date:   Fri Nov 6 11:53:16 2026 +0100
+
+    improve options and mainmenu
+
+[33mcommit 30bec8f1c8190b817304cf2181c4ba60328368f9[m
+Author: JakubGulak-git <jakubgulak@icloud.com>
+Date:   Fri Nov 6 11:35:05 2026 +0100
+
+    add better options
+
+[33mcommit 5d5afd4c76c02d756a56aeb331e3bf99449baecf[m
+Author: JakubGulak-git <jakubgulak@icloud.com>
+Date:   Fri Nov 6 10:57:10 2026 +0100
+
+    add better music
+
+[33mcommit 43081858279ed9fff00f32d9bc818212059cd805[m
+Author: JakubGulak-git <jakubgulak@icloud.com>
+Date:   Fri Nov 6 10:48:15 2026 +0100
+
+    add custom cursor
+
+[33mcommit b309962aa7a7add849d655db6f7df6cddcd5df42[m
+Author: JakubGulak-git <jakubgulak@icloud.com>
+Date:   Mon Nov 2 13:35:46 2026 +0100
+
+    improve buttons and fonts
+
+[33mcommit 16e720a6cbe3030b511b331a1528e6172e34cbcf[m
+Author: JakubGulak-git <jakubgulak@icloud.com>
+Date:   Mon Nov 2 12:03:28 2026 +0100
+
+    add fonts and new texts
+
+[33mcommit 22977ba898c97f497992da8153a300899a5c7065[m
+Author: JakubGulak-git <jakubgulak@icloud.com>
+Date:   Sun Nov 1 18:21:33 2026 +0100
+
+    add better scale and fonts
+
+[33mcommit 34826b445e16368a29035bbbab4971af6d2c167c[m
+Author: JakubGulak-git <jakubgulak@icloud.com>
+Date:   Mon Oct 26 19:41:19 2026 +0100
+
+    resolution
+
+[33mcommit 6dbf8ce3b669f3964aedb59dac0c3f76a8cb05db[m
+Author: JakubGulak-git <jakubgulak@icloud.com>
+Date:   Mon Oct 26 15:32:34 2026 +0100
+
+    resolution on
+
+[33mcommit abcd1da1dec1cede07d87973cb8be53fbce24eb0[m
+Author: JakubGulak-git <jakubgulak@icloud.com>
+Date:   Mon Oct 26 15:15:40 2026 +0100
+
+    better resolution of buttons
+
+[33mcommit c36f3c2e21ee26893f8970891a37e49064d5ba56[m
+Author: JakubGulak-git <jakubgulak@icloud.com>
+Date:   Tue Oct 20 15:06:24 2026 +0200
+
+    change card bar
+
+[33mcommit 76956cfb7feb1f1913616ec076d212c162ac6f56[m
+Author: JakubGulak-git <jakubgulak@icloud.com>
+Date:   Tue Oct 20 14:41:10 2026 +0200
+
+    change graphics of map button and card bar
+
+[33mcommit 49001c2007408f690e55b46d23d41ec41aecabf1[m
+Author: JakubGulak-git <jakubgulak@icloud.com>
+Date:   Tue Oct 20 14:35:35 2026 +0200
+
+    copy branch menu and add sounds
+
+[33mcommit 3ef52372e014e1f3238ef9c2fd8ebdc4eb24b928[m
+Author: JakubGulak-git <jakubgulak@icloud.com>
+Date:   Wed Oct 14 15:06:07 2026 +0200
+
+    modified gitignore
+
+[33mcommit 68124809050d337638c68283b3a578e42d890969[m
+Author: Jakub-Gulak <jakubgulak@icloud.com>
+Date:   Mon Jun 15 19:29:57 2026 +0200
+
+    add
+
+[33mcommit 37621ab9d9b39a5b6fc6b90a7771c2bb5e0a2c17[m
+Author: Jakub-Gulak <jakubgulak@icloud.com>
+Date:   Sun Jun 14 21:39:47 2026 +0200
+
+    improve options scene
+
+[33mcommit 4b9890b0da13d64cc1a5f8f8a9cfbb3f0b04ff03[m
+Author: Jakub-Gulak <jakubgulak@icloud.com>
+Date:   Sun Jun 14 21:32:09 2026 +0200
+
+    add main menu background
+
+[33mcommit 070afa4086e95b3aa45ba80364c59a023b71982c[m
+Author: Jakub-Gulak <jakubgulak@icloud.com>
+Date:   Sun Jun 14 21:25:28 2026 +0200
+
+    add music and working volume slider
+
+[33mcommit 231e1801629a62a73de0dca2821c490bf66dfa9a[m
+Author: Jakub-Gulak <jakubgulak@icloud.com>
+Date:   Fri Jun 5 11:39:53 2026 +0200
+
+    add sound options and back button, improve scripts
+
+[33mcommit f0259e28f34f979badb95aed3e5dd444ed9bc282[m
+Author: Jakub-Gulak <jakubgulak@icloud.com>
+Date:   Fri Jun 5 11:02:19 2026 +0200
+
+    add menu buttons and scripts
+
+[33mcommit 0f849dd3d7b464bfb5c80ea097f329b5b78ff462[m
+Author: Jakub-Gulak <jakubgulak@icloud.com>
+Date:   Fri Jun 5 09:50:12 2026 +0200
+
+    add new scene - MainMenu and canvas scaler
+
+[33mcommit b18d8161753472253020f5b68add191c5507876b[m
+Author: Jakub-Gulak <jakubgulak@icloud.com>
+Date:   Thu May 21 13:35:56 2026 +0200
+
+    add new scripts
+
+[33mcommit 6d926776eeab72ca72fee7146152c1b939856c97[m
+Author: Jakub-Gulak <jakubgulak@icloud.com>
+Date:   Thu May 21 13:24:51 2026 +0200
+
+    add stream
+
+[33mcommit 7160c6e70641e1d1add9a9c075d218fccabc71df[m
+Author: Jakub-Gulak <jakubgulak@icloud.com>
+Date:   Thu May 21 12:51:18 2026 +0200
+
+    add more card to backpack :D
+
+[33mcommit 81d0e9f283da3b2fb59aac466a2c62bad566a79d[m
+Author: Jakub-Gulak <jakubgulak@icloud.com>
+Date:   Thu May 21 12:42:26 2026 +0200
+
+    change scale and px
+
+[33mcommit 70e1d482ce2d020c7486ccc1efa301421ecf34b9[m
+Author: Jakub-Gulak <jakubgulak@icloud.com>
+Date:   Thu May 21 12:16:36 2026 +0200
+
+    add backpack and scripts
+
+[33mcommit 757dc6559fa4402a51164a7922c59ff89bb832e0[m
+Author: Jakub-Gulak <jakubgulak@icloud.com>
+Date:   Sat May 16 11:03:16 2026 +0200
+
+    add map graphic
+
+[33mcommit 6be4c0ffe9b4660a4de418abc258af7ecbe9b39e[m
+Author: Jakub-Gulak <jakubgulak@icloud.com>
+Date:   Sat May 16 09:45:20 2026 +0200
+
+    add script card on character
+
+[33mcommit 97fa8e1bbec26e3ead7db3e82bcaa876981e16f0[m
+Author: Jakub-Gulak <jakubgulak@icloud.com>
+Date:   Sat May 16 09:34:18 2026 +0200
+
+    add first character and functional click on it
+
+[33mcommit 22a3a2d83f50aa1fc1e393d8217d8592997a9c94[m
+Author: Jakub-Gulak <jakubgulak@icloud.com>
+Date:   Mon May 11 19:53:32 2026 +0200
+
+    change scale
+
+[33mcommit 09d2544a51da32e50923794b7fe581368b049f29[m
+Author: Jakub-Gulak <jakubgulak@icloud.com>
+Date:   Sun May 10 12:25:32 2026 +0200
+
+    add back button
+
+[33mcommit ef72882497021718f14890a16bd02c114a45afba[m
+Author: Jakub-Gulak <jakubgulak@icloud.com>
+Date:   Sun May 10 12:13:34 2026 +0200
+
+    add working map button
+
+[33mcommit 01eca7643961d43fbe4d4c4075c0c24044baa452[m
+Author: Jakub-Gulak <jakubgulak@icloud.com>
+Date:   Sun May 10 12:08:15 2026 +0200
+
+    Add new map scene
+
+[33mcommit 5b9a5aa4b8267b9ff827e51578b9d0a5feaafaaf[m
+Author: Jakub-Gulak <jakubgulak@icloud.com>
+Date:   Sun May 10 12:04:24 2026 +0200
+
+    add map button and tmp essentials
+
+[33mcommit 2bb3863923d01d9e6d055b375f37f50d2a44fc13[m
+Author: Jakub-Gulak <jakubgulak@icloud.com>
+Date:   Sat May 9 14:47:51 2026 +0200
+
+    Add cards and horizontal movement after adding
+
+[33mcommit 63d1f8d79517cf29437147d035f285061257e3b5[m
+Author: Jakub-Gulak <jakubgulak@icloud.com>
+Date:   Sat May 9 14:42:11 2026 +0200
+
+    Add SceneFrame and CardBar
+
+[33mcommit 18a57a142ab8a6d72a103a1a933e14a5ccb3a9fd[m
+Author: Jakub-Gulak <jakubgulak@icloud.com>
+Date:   Tue May 5 20:33:42 2026 +0200
+
+    add new main radio scene
+
+[33mcommit 588ccb90d84f8b4c77a1fac4447f2f637ba1b32c[m[33m ([m[1;31morigin/feature-cards[m[33m, [m[1;32mfeature-cards[m[33m)[m
+Author: Emilia Jasińska <jasinska.e.h@gmail.com>
+Date:   Tue May 5 19:40:12 2026 +0200
+
+    Uploaded story
+    
+    PDF file contains story for designed game
+
+[33mcommit 5a63d7fe2917550cf3a293d89444f9f93fb3a919[m
+Author: Jakub-Gulak <jakubgulak@icloud.com>
+Date:   Tue May 5 19:33:02 2026 +0200
+
+    add project to github
