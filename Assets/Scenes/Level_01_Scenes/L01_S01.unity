@@ -1129,8 +1129,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -289, y: -24}
-  m_SizeDelta: {x: 204.67, y: 485.5734}
+  m_AnchoredPosition: {x: -187.5, y: 37}
+  m_SizeDelta: {x: 197.5567, y: 456.5456}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1117838023
 MonoBehaviour:
@@ -1241,7 +1241,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -123, y: -257}
+  m_AnchoredPosition: {x: -138, y: -283}
   m_SizeDelta: {x: 171.4484, y: 156.0728}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1162235335
@@ -1298,9 +1298,7 @@ MonoBehaviour:
   - {fileID: 487223969}
   - {fileID: 869564377}
   - {fileID: 2076954425}
-  characterImage: {fileID: 1117838023}
   characterAnimator: {fileID: 1117838026}
-  characterWithBackpackSprite: {fileID: -5050664382621690000, guid: fbd41dcb2d199454f9d2ab1f41b5f6bc, type: 3}
 --- !u!1 &1331123199
 GameObject:
   m_ObjectHideFlags: 0
@@ -1335,7 +1333,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 102.19385, y: 141.49281}
+  m_AnchoredPosition: {x: 149, y: 224}
   m_SizeDelta: {x: 430.3897, y: 59.1219}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1331123201
@@ -1473,8 +1471,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 66.498}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 172.77722, y: -235.77286}
-  m_SizeDelta: {x: 114.0819, y: 361.3224}
+  m_AnchoredPosition: {x: 144.32678, y: -231.93985}
+  m_SizeDelta: {x: 156.3946, y: 416.56}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1415046855
 MonoBehaviour:
@@ -1526,6 +1524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 542623d1313bd4a49b8e4aafa48cace2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Stream
+  characterAnimator: {fileID: 1117838026}
 --- !u!1 &1433420444
 GameObject:
   m_ObjectHideFlags: 0

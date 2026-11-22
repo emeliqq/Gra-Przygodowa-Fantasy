@@ -22,12 +22,16 @@ public class Card : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        if (wasUsed) return;
+
         startPosition = transform.position;
         canvasGroup.blocksRaycasts = false;
     }
 
     public void OnDrag(PointerEventData eventData)
     {
+        if (wasUsed) return;
+
         transform.position = eventData.position;
     }
 
@@ -35,17 +39,17 @@ public class Card : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
     {
         canvasGroup.blocksRaycasts = true;
 
-        if (wasUsed)
+        if (!wasUsed)
         {
-            Destroy(gameObject);
-            return;
+            transform.position = startPosition;
         }
-
-        transform.position = startPosition;
     }
 
     public void MarkAsUsed()
     {
+        if (wasUsed) return;
+
         wasUsed = true;
+        Destroy(gameObject);
     }
 }

@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: 546b73f4617f93b448c4f0a8079f7ab1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1090284409079182501
+    second: collect_water_0
+  - first:
+      213: 835777594329581541
+    second: collect_water_1
+  - first:
+      213: 4676712249511187628
+    second: collect_water_2
+  - first:
+      213: 8924592212414536273
+    second: collect_water_3
+  - first:
+      213: -2778275410707825106
+    second: collect_water_4
+  - first:
+      213: -2941305338538556084
+    second: collect_water_5
+  - first:
+      213: 7491903507544985144
+    second: collect_water_6
+  - first:
+      213: -3019673789468997362
+    second: collect_water_7
+  - first:
+      213: 2657932479388049519
+    second: collect_water_8
+  - first:
+      213: -3019557298048849970
+    second: collect_water_9
+  - first:
+      213: 7389172588522946769
+    second: collect_water_10
+  - first:
+      213: 1598959929955884496
+    second: collect_water_11
+  - first:
+      213: -5011294100483798835
+    second: collect_water_12
+  - first:
+      213: -769852001711618441
+    second: collect_water_13
+  - first:
+      213: -6789681001558121484
+    second: collect_water_14
+  - first:
+      213: -8289742843406017787
+    second: collect_water_15
+  - first:
+      213: 1081643319843548386
+    second: collect_water_16
+  - first:
+      213: 5627762723411718119
+    second: collect_water_17
+  - first:
+      213: 5831327008022768622
+    second: collect_water_18
+  - first:
+      213: 3947889858853969445
+    second: collect_water_19
+  - first:
+      213: 6112878510412891686
+    second: collect_water_20
+  - first:
+      213: -9135145029683285366
+    second: collect_water_21
+  - first:
+      213: -8924802842327211785
+    second: collect_water_22
+  - first:
+      213: -9141227812957796686
+    second: collect_water_23
+  - first:
+      213: -5355866607979885664
+    second: collect_water_24
+  - first:
+      213: -4485288584956085791
+    second: collect_water_25
+  - first:
+      213: -4996993009160078982
+    second: collect_water_26
+  - first:
+      213: -679064322025978188
+    second: collect_water_27
+  - first:
+      213: 7848982848593595854
+    second: collect_water_28
+  - first:
+      213: -2816437504592095692
+    second: collect_water_29
+  - first:
+      213: -5990524166448778999
+    second: collect_water_30
+  - first:
+      213: -3947832001508026027
+    second: collect_water_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: collect_water_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 216
+        width: 343
+        height: 502
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b40b44b188ed0f0800000000000000
+      internalID: -1090284409079182501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_1
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 198
+        width: 385
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e7ce3d3b47499b00800000000000000
+      internalID: 835777594329581541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_2
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 508
+        width: 49
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca415dc330507e040800000000000000
+      internalID: 4676712249511187628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_3
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 369
+        width: 327
+        height: 311
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15a9f2a25558adb70800000000000000
+      internalID: 8924592212414536273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_4
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 371
+        width: 323
+        height: 317
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ebe80eb359179d0800000000000000
+      internalID: -2778275410707825106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_5
+      rect:
+        serializedVersion: 2
+        x: 1462
+        y: 651
+        width: 80
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c450378d0626e27d0800000000000000
+      internalID: -2941305338538556084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_6
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 371
+        width: 287
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83ec8badb8698f760800000000000000
+      internalID: 7491903507544985144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_7
+      rect:
+        serializedVersion: 2
+        x: 1794
+        y: 618
+        width: 199
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e098429ffa6f716d0800000000000000
+      internalID: -3019673789468997362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_8
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 626
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f60e5e6f18fd2e420800000000000000
+      internalID: 2657932479388049519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_9
+      rect:
+        serializedVersion: 2
+        x: 2081
+        y: 638
+        width: 44
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec72cdeb2a06816d0800000000000000
+      internalID: -3019557298048849970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_10
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 574
+        width: 53
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0c6fad15d9b8660800000000000000
+      internalID: 7389172588522946769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_11
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 0
+        width: 405
+        height: 616
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd9a1ba595a03610800000000000000
+      internalID: 1598959929955884496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_12
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 606
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc807ab019e447ab0800000000000000
+      internalID: -5011294100483798835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_13
+      rect:
+        serializedVersion: 2
+        x: 2122
+        y: 470
+        width: 35
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7760b5ceeafe055f0800000000000000
+      internalID: -769852001711618441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_14
+      rect:
+        serializedVersion: 2
+        x: 2140
+        y: 554
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f3e8e33a1536c1a0800000000000000
+      internalID: -6789681001558121484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_15
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 250
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50b927b0ecae4fc80800000000000000
+      internalID: -8289742843406017787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_16
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 268
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ece2fc5ed4c20f00800000000000000
+      internalID: 1081643319843548386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_17
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 269
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efe3293164d91e40800000000000000
+      internalID: 5627762723411718119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_18
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 16
+        width: 302
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeba652a4090de050800000000000000
+      internalID: 5831327008022768622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_19
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 274
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52e9b59e8e8b9c630800000000000000
+      internalID: 3947889858853969445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_20
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 17
+        width: 353
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62687482e9e45d450800000000000000
+      internalID: 6112878510412891686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_21
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 15
+        width: 195
+        height: 324
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a827d0edef1793180800000000000000
+      internalID: -9135145029683285366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_22
+      rect:
+        serializedVersion: 2
+        x: 1406
+        y: 15
+        width: 311
+        height: 346
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0a0bcb91bb42480800000000000000
+      internalID: -8924802842327211785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_23
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 262
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6cab58cb5d32180800000000000000
+      internalID: -9141227812957796686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_24
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 252
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ab8bf652b32ca5b0800000000000000
+      internalID: -5355866607979885664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_25
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 244
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9f39acbcd01c1c0800000000000000
+      internalID: -4485288584956085791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_26
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 248
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7937e7555d17aab0800000000000000
+      internalID: -4996993009160078982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_27
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 252
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b60002d89a7396f0800000000000000
+      internalID: -679064322025978188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_28
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 208
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecd0e8aa0503dec60800000000000000
+      internalID: 7848982848593595854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_29
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 224
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43653bef2010ae8d0800000000000000
+      internalID: -2816437504592095692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_30
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 0
+        width: 301
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9017d6082026ddca0800000000000000
+      internalID: -5990524166448778999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: collect_water_31
+      rect:
+        serializedVersion: 2
+        x: 2091
+        y: 154
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559d13d06bb7639c0800000000000000
+      internalID: -3947832001508026027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      collect_water_0: -1090284409079182501
+      collect_water_1: 835777594329581541
+      collect_water_10: 7389172588522946769
+      collect_water_11: 1598959929955884496
+      collect_water_12: -5011294100483798835
+      collect_water_13: -769852001711618441
+      collect_water_14: -6789681001558121484
+      collect_water_15: -8289742843406017787
+      collect_water_16: 1081643319843548386
+      collect_water_17: 5627762723411718119
+      collect_water_18: 5831327008022768622
+      collect_water_19: 3947889858853969445
+      collect_water_2: 4676712249511187628
+      collect_water_20: 6112878510412891686
+      collect_water_21: -9135145029683285366
+      collect_water_22: -8924802842327211785
+      collect_water_23: -9141227812957796686
+      collect_water_24: -5355866607979885664
+      collect_water_25: -4485288584956085791
+      collect_water_26: -4996993009160078982
+      collect_water_27: -679064322025978188
+      collect_water_28: 7848982848593595854
+      collect_water_29: -2816437504592095692
+      collect_water_3: 8924592212414536273
+      collect_water_30: -5990524166448778999
+      collect_water_31: -3947832001508026027
+      collect_water_4: -2778275410707825106
+      collect_water_5: -2941305338538556084
+      collect_water_6: 7491903507544985144
+      collect_water_7: -3019673789468997362
+      collect_water_8: 2657932479388049519
+      collect_water_9: -3019557298048849970
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,6 +1,5 @@
 
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.EventSystems;
 
 public class Backpack : MonoBehaviour, IPointerClickHandler
@@ -9,9 +8,7 @@ public class Backpack : MonoBehaviour, IPointerClickHandler
     public GameObject[] cardsToUnlock;
 
     [Header("Character")]
-    public Image characterImage;
     public Animator characterAnimator;
-    public Sprite characterWithBackpackSprite;
 
     private bool canBeCollected = false;
     private bool collected = false;
@@ -22,22 +19,11 @@ public class Backpack : MonoBehaviour, IPointerClickHandler
         {
             collected = true;
 
-            // Stop animation and restore character appearance
-            characterAnimator.enabled = false;
-            characterImage.sprite = characterWithBackpackSprite;
+            // Set character animation to backpack mode
+            characterAnimator.SetBool("HasBackpack", true);
 
             // Restore unlocked cards
-            foreach (GameObject cardObject in cardsToUnlock)
-            {
-                Card card = cardObject.GetComponent<Card>();
-
-                if (card != null &&
-                    card.cardName == "Card_Map" &&
-                    GameState.MapUsed)
-                    continue;
-
-                cardObject.SetActive(true);
-            }
+            UnlockCards();
 
             // Hide backpack on the ground
             gameObject.SetActive(false);
@@ -59,16 +45,20 @@ public class Backpack : MonoBehaviour, IPointerClickHandler
         // Save backpack collection
         GameState.OpenBackpack();
 
-        // Stop character animation
-        characterAnimator.enabled = false;
-
-        // Change character sprite
-        characterImage.sprite = characterWithBackpackSprite;
+        // Change character animation
+        characterAnimator.SetBool("HasBackpack", true);
 
         // Hide backpack on the ground
         gameObject.SetActive(false);
 
         // Unlock cards
+        UnlockCards();
+
+        Debug.Log("Backpack collected. Character animation changed.");
+    }
+
+    private void UnlockCards()
+    {
         foreach (GameObject cardObject in cardsToUnlock)
         {
             Card card = cardObject.GetComponent<Card>();
@@ -80,7 +70,5 @@ public class Backpack : MonoBehaviour, IPointerClickHandler
 
             cardObject.SetActive(true);
         }
-
-        Debug.Log("Backpack collected. Character updated.");
     }
 }
