@@ -61,6 +61,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Character.cs" />
+    <Compile Include="Assets\Scripts\RoomLighting.cs" />
     <Compile Include="Assets\Scripts\L01\S02\Candle.cs" />
     <Compile Include="Assets\Scripts\L01\S01\Backpack.cs" />
     <Compile Include="Assets\Scripts\Card.cs" />

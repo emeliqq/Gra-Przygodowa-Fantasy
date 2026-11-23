@@ -265,6 +265,112 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cd6c6c80ba9fc3346bf7bd8bb237226f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SceneLoader
+--- !u!1 &430573427
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 430573428}
+  - component: {fileID: 430573432}
+  - component: {fileID: 430573431}
+  - component: {fileID: 430573430}
+  - component: {fileID: 430573429}
+  m_Layer: 5
+  m_Name: Card_Battery
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &430573428
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430573427}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1433420445}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 140, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!225 &430573429
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430573427}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
+--- !u!114 &430573430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430573427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9323473d56bf7d14e997023869e40fe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Card
+  cardName: Card_Battery
+  chargedFlashlightSprite: {fileID: 0}
+  unchargedFlashlightSprite: {fileID: 0}
+  pickupSound: {fileID: 8300000, guid: 2595dae4502e71e4b820deec869563b7, type: 3}
+  placeSound: {fileID: 0}
+--- !u!114 &430573431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430573427}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.8627451, g: 0.78431374, b: 0.6666667, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 5856981904466133357, guid: 8ab5f602cf2f4c44e82c0ddbd8e2b7b9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &430573432
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 430573427}
+  m_CullTransparentMesh: 1
 --- !u!1 &487223969
 GameObject:
   m_ObjectHideFlags: 0
@@ -356,6 +462,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Card
   cardName: Card_Matches
   chargedFlashlightSprite: {fileID: 0}
+  unchargedFlashlightSprite: {fileID: 0}
+  pickupSound: {fileID: 8300000, guid: 2595dae4502e71e4b820deec869563b7, type: 3}
+  placeSound: {fileID: 8300000, guid: 9010496c3fa8c6247b5b4f4ce5ba3f9c, type: 3}
 --- !u!225 &487223974
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -655,6 +764,7 @@ GameObject:
   - component: {fileID: 526422792}
   - component: {fileID: 526422794}
   - component: {fileID: 526422793}
+  - component: {fileID: 526422795}
   m_Layer: 5
   m_Name: SceneFrame
   m_TagString: Untagged
@@ -722,6 +832,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 526422791}
   m_CullTransparentMesh: 1
+--- !u!114 &526422795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 526422791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd7ace7599253ab4a938d11d885c1e80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RoomLighting
+  roomId: L01_S02
+  darkColor: {r: 0.12, g: 0.04, b: 0.04, a: 1}
+  brightColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &543120749
 GameObject:
   m_ObjectHideFlags: 0
@@ -1056,6 +1181,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Card
   cardName: Card_Flashlight
   chargedFlashlightSprite: {fileID: -5913738696227704600, guid: 2e390ce668bdd1349912d55d3ff3f14c, type: 3}
+  unchargedFlashlightSprite: {fileID: 2633553233762182114, guid: 96044ade2a9ac4b46b3b213f194e2078, type: 3}
+  pickupSound: {fileID: 8300000, guid: 2595dae4502e71e4b820deec869563b7, type: 3}
+  placeSound: {fileID: 8300000, guid: c3d75cab8fc57af4987ce045640867ba, type: 3}
 --- !u!114 &869564381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1378,6 +1506,7 @@ RectTransform:
   - {fileID: 487223970}
   - {fileID: 869564378}
   - {fileID: 2076954426}
+  - {fileID: 430573428}
   m_Father: {fileID: 543120753}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
@@ -1662,7 +1791,7 @@ GameObject:
   - component: {fileID: 2076954428}
   - component: {fileID: 2076954427}
   m_Layer: 5
-  m_Name: Card_Battery
+  m_Name: Card_Knife
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1713,6 +1842,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Card
   cardName: Card_Knife
   chargedFlashlightSprite: {fileID: 0}
+  unchargedFlashlightSprite: {fileID: 0}
+  pickupSound: {fileID: 8300000, guid: 2595dae4502e71e4b820deec869563b7, type: 3}
+  placeSound: {fileID: 8300000, guid: 1091c38a05756fa46914b5be80419933, type: 3}
 --- !u!114 &2076954429
 MonoBehaviour:
   m_ObjectHideFlags: 0

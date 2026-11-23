@@ -9,6 +9,11 @@ public class Card : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
 
     [Header("Latarka")]
     [SerializeField] private Sprite chargedFlashlightSprite;
+    [SerializeField] private Sprite unchargedFlashlightSprite;
+
+    [Header("Dźwięki")]
+    [SerializeField] private AudioClip pickupSound;
+    [SerializeField] private AudioClip placeSound;
 
     private Vector3 startPosition;
     private CanvasGroup canvasGroup;
@@ -16,6 +21,8 @@ public class Card : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
 
     private bool wasUsed = false;
     private bool isCharged = false;
+
+    public bool IsCharged => isCharged;
 
     void Start()
     {
@@ -31,6 +38,11 @@ public class Card : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
     public void OnBeginDrag(PointerEventData eventData)
     {
         startPosition = transform.position;
+
+        if (pickupSound != null)
+        {
+            AudioSource.PlayClipAtPoint(pickupSound, Camera.main.transform.position);
+        }
 
         if (canvasGroup != null)
         {
@@ -97,8 +109,37 @@ public class Card : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHand
         Debug.Log("Latarka została naładowana baterią!");
     }
 
+    public void UseFlashlight()
+    {
+        if (!isCharged)
+            return;
+
+        isCharged = false;
+
+        if (unchargedFlashlightSprite != null)
+        {
+            cardImage.sprite = unchargedFlashlightSprite;
+        }
+
+        PlayPlaceSound();
+
+        Debug.Log("Latarka rozjaśniła pokój i została rozładowana!");
+    }
+
     public void MarkAsUsed()
     {
+        if (wasUsed)
+            return;
+
         wasUsed = true;
+        PlayPlaceSound();
+    }
+
+    private void PlayPlaceSound()
+    {
+        if (placeSound != null && Camera.main != null)
+        {
+            AudioSource.PlayClipAtPoint(placeSound, Camera.main.transform.position);
+        }
     }
 }
