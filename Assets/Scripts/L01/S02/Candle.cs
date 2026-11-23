@@ -44,9 +44,10 @@ public class Candle : MonoBehaviour, IDropHandler
         }
 
         LightCandle();
+
         card.MarkAsUsed();
 
-        Debug.Log("Użyto zapałek - świeczka została zapalona!");
+        Debug.Log("Zapałki zostały zużyte. Świeczka została zapalona!");
     }
 
     private void LightCandle()

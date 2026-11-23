@@ -355,6 +355,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Card
   cardName: Card_Matches
+  chargedFlashlightSprite: {fileID: 0}
 --- !u!225 &487223974
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1053,7 +1054,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9323473d56bf7d14e997023869e40fe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Card
-  cardName: Card_Bottle
+  cardName: Card_Flashlight
+  chargedFlashlightSprite: {fileID: -5913738696227704600, guid: 2e390ce668bdd1349912d55d3ff3f14c, type: 3}
 --- !u!114 &869564381
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1074,7 +1076,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -5913738696227704600, guid: 2e390ce668bdd1349912d55d3ff3f14c, type: 3}
+  m_Sprite: {fileID: 2633553233762182114, guid: 96044ade2a9ac4b46b3b213f194e2078, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1660,7 +1662,7 @@ GameObject:
   - component: {fileID: 2076954428}
   - component: {fileID: 2076954427}
   m_Layer: 5
-  m_Name: Card_Knife
+  m_Name: Card_Battery
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1709,7 +1711,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9323473d56bf7d14e997023869e40fe1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Card
-  cardName: Card_Map
+  cardName: Card_Knife
+  chargedFlashlightSprite: {fileID: 0}
 --- !u!114 &2076954429
 MonoBehaviour:
   m_ObjectHideFlags: 0
